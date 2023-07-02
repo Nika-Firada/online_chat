@@ -1,0 +1,23 @@
+{
+  "name": "online_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server1 --prefix server\" \"npm start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nika-Firada/online_chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nika-Firada/online_chat/issues"
+  },
+  "homepage": "https://github.com/Nika-Firada/online_chat#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

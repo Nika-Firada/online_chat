@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon longpulling.js",
-    "server1": "nodemon websocket.js",
+    "server1": "node websocket.js",
     "server2": "nodemon eventsource.js"
   },
   "keywords": [],
